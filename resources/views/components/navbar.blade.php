@@ -12,7 +12,7 @@
                             <a href="/">Inicio</a>
                         </li>
                         <li>
-                            <a href="7404">Nosotros</a>
+                            <a href="nosotros">Nosotros</a>
                         </li>
                         <li>
                             <a href="/404">Servicios</a>
@@ -27,7 +27,7 @@
                             <a href="news.html">News</a>
                         </li>-->
                         <li>
-                            <a href="/404">Contacto</a>
+                            <a href="/contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -54,12 +54,12 @@
                                                     </a>
                                                 </li>
                                                 <li id="nosotros_nav">
-                                                    <a href="/404" data-title="Nosotros">
+                                                    <a href="/nosotros" data-title="Nosotros">
                                                         <span>Nosotros</span>
                                                     </a>
                                                 </li>
                                                 <li id="servicios_nav">
-                                                    <a href="/404" data-title="Servicios">
+                                                    <a href="/servicios" data-title="Servicios">
                                                         <span>Servicios</span>
                                                     </a>
                                                 </li>
@@ -78,8 +78,13 @@
                                                         <span>News</span>
                                                     </a>
                                                 </li>-->
+                                                <li>
+                                                    <a href="/planes" data-title="Planes">
+                                                        <span>Planes</span>
+                                                    </a>
+                                                </li>
                                                 <li id="contacto_nav">
-                                                    <a href="/404" data-title="Contacto">
+                                                    <a href="/contacto" data-title="Contacto">
                                                         <span>Contacto</span>
                                                     </a>
                                                 </li>

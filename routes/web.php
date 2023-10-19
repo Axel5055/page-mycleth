@@ -3,6 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InicioController;
 use App\Http\Controllers\NotFoundController;
+use App\Http\Controllers\NosotrosController;
+use App\Http\Controllers\ServiciosController;
+use App\Http\Controllers\ContactoController;
+use App\Http\Controllers\PlanesController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +22,7 @@ use App\Http\Controllers\NotFoundController;
 
 Route::get('/', [InicioController::class, 'index']);
 Route::get('404', [NotFoundController::class, 'index']);
+Route::get('nosotros', [NosotrosController::class, 'index']);
+Route::get('servicios', [ServiciosController::class, 'index']);
+Route::get('contacto', [ContactoController::class, 'index']);
+Route::get('planes', [PlanesController::class, 'index']);
