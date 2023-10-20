@@ -18,16 +18,12 @@
                     <div class="footer-item">
                         <nav class="footer-nav">
                             <ul class="footer-mnu footer-mnu-line">
-                                <li><a href="#!" class="hover-link" data-title="Inicio"><span>Inicio</span></a>
-                                </li>
-                                <li><a href="#!" class="hover-link" data-title="Nosotros"><span>Nosotros</span></a>
-                                </li>
-                                <li><a href="#!" class="hover-link"
-                                        data-title="Servicios"><span>Servicios</span></a>
-                                </li>
+                                <li><a href="/" class="hover-link" data-title="Inicio"><span>Inicio</span></a></li>
+                                <li><a href="nosotros" class="hover-link" data-title="Nosotros"><span>Nosotros</span></a></li>
+                                <li><a href="servicios" class="hover-link" data-title="Servicios"><span>Servicios</span></a></li>
+                                <li><a href="planes" class="hover-link" data-title="Planes"><span>Planes</span></a></li>
                                 <!--<li><a href="#!" class="hover-link" data-title="News"><span>News</span></a></li>-->
-                                <li><a href="#!" class="hover-link" data-title="Contacto"><span>Contacto</span></a>
-                                </li>
+                                <li><a href="contacto" class="hover-link" data-title="Contacto"><span>Contacto</span></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -85,7 +81,6 @@
         }
     });
 </script>
-
 </body>
 
 </html>
