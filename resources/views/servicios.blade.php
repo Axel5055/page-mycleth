@@ -161,6 +161,15 @@
 				</div>
 			</section>
 
+            <div class="btn-group align-items-center justify-content-center">
+                    <a href="/planes" class="btn btn-border btn-with-icon btn-small ripple">
+                        <span>Conoce los planes que tenemos para ti</span>
+                        <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
+                            <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                        </svg>
+                    </a>
+                </div>
+
 @endsection
 
 @section('titulo')

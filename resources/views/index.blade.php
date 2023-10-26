@@ -19,7 +19,7 @@
                         </div>
                         <div class="btn-group intro-btns">
                             <a href="/nosotros" class="btn btn-border btn-with-icon btn-small ripple">
-                                <span>Descubrenos</span>
+                                <span>Conócenos</span>
                                 <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
                                     <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
                                 </svg>
@@ -37,7 +37,7 @@
         <div class="row items">
             <header class="col-12">
                 <div class="section-heading heading-center">
-                    <div class="section-subheading">Mas de nuestra filosofia</div>
+                    <div class="section-subheading">Más de nuestra filosofía</div>
                     <br><br>
                     <!-- <h2>Latest News</h2> -->
                 </div>
@@ -100,8 +100,8 @@
             </div>
             <footer class="section-footer col-12 item section-footer-animate">
                 <div class="btn-group align-items-center justify-content-center">
-                    <a href="/nosotros" class="btn btn-border btn-with-icon btn-small ripple">
-                        <span>Descubrenos</span>
+                    <a href="/servicios" class="btn btn-border btn-with-icon btn-small ripple">
+                        <span>Conoce todos nuestros servicios</span>
                         <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
                             <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
                         </svg>

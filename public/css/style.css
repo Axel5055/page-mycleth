@@ -20270,6 +20270,13 @@ disabled look for disabled choices in the results dropdown
 	padding: 29px 30px 35px;
 }
 
+.nosotros>h1{
+margin-bottom: 2em;
+}
+.nosotros-experiencia{
+margin-bottom: 45px;
+}
+
 .section-servicios{
 margin-bottom: 0px;
 padding-bottom: 0px;

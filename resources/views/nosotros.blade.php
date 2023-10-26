@@ -5,44 +5,78 @@
     <div class="container">
         <div class="row">
             <header class="col-12">
-                <div class="section-heading heading-center">
+                <div class="section-heading heading-center nosotros">
                     <!-- <div class="section-subheading">industry leader</div> -->
-                    <h1>¿Quienes Somos?</h1>
+                    <h1>¿Quiénes Somos?</h1>
+
+                    <div class="row nosotros-creative">
+                        <div class="col-6">
+                            <p>
+                            Somos más que una empresa mexicana de diseño y desarrollo web. Nos consideramos arquitectos 
+                            digitales, apasionados por crear experiencias en línea que trasciendan lo ordinario. 
+                            Nos dedicamos a potenciar los negocios de nuestros clientes, dotándolos de una presencia web 
+                            sólida y atractiva a un precio accesible.
+                            </p>
+                        </div>
+                        <div class="col-6">
+                        <img data-src="assets/img/nosotros/creative.jpg" class="img-cover img-responsive lazy"
+                            alt="Creative">
+                        </div>
+                    </div>
+
+                    <div class="row nosotros-team">
+                    <div class="col-6">
+                        <img data-src="assets/img/nosotros/team.jpg" class="img-cover img-responsive lazy"
+                            src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                            alt="Team">
+                        </div>
+                        <div class="col-6">
+                            <p>
+                            En esta era digital, donde el marketing redefine las reglas del juego, nos destacamos por 
+                            nuestra dedicación inquebrantable, nuestra profunda experiencia y nuestro compromiso 
+                            inflexible. Trabajamos incansablemente para ayudar a las empresas a destacarse en línea,
+                            a contar sus historias de manera cautivadora y a interactuar de manera significativa con 
+                            su audiencia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row nosotros-code">
+                        <div class="col-6">
+                            <p>
+                            En My Cleth, no solo transformamos ideas en código y diseño; transformamos visiones en 
+                            realidad digital. Creemos en la innovación, la elegancia técnica y la creación de experiencias 
+                            digitales excepcionales que perduran en la memoria de quienes las encuentran.
+                            </p>
+                        </div>
+                        <div class="col-6">
+                        <img data-src="assets/img/nosotros/code.jpg" class="img-cover img-responsive lazy"
+                            src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                            alt="Code">
+                        </div>
+                    </div>
                     <p>
-                        Somos más que una empresa mexicana de diseño y desarrollo web. Nos consideramos arquitectos 
-                        digitales, apasionados por crear experiencias en línea que trasciendan lo ordinario. 
-                        Nos dedicamos a potenciar los negocios de nuestros clientes, dotándolos de una presencia web 
-                        sólida y atractiva a un precio accesible.
-                    </p>
-                    <p>
-                        En esta era digital, donde el marketing redefine las reglas del juego, nos destacamos por 
-                        nuestra dedicación inquebrantable, nuestra profunda experiencia y nuestro compromiso 
-                        inflexible. Trabajamos incansablemente para ayudar a las empresas a destacarse en línea,
-                        a contar sus historias de manera cautivadora y a interactuar de manera significativa con 
-                        su audiencia.
-                    </p>
-                    <p>
-                    En My Cleth, no solo transformamos ideas en código y diseño; transformamos visiones en 
-                    realidad digital. Creemos en la innovación, la elegancia técnica y la creación de experiencias 
-                    digitales excepcionales que perduran en la memoria de quienes las encuentran.
-                    </p>
                     <br><br>
                     <!-- <p class="section-desc">We are an acknowledged corporate industry leader.</p> -->
                 </div>
             </header>
-            <div class="col-12">
+
+           <!--- <div class="col-12">
                 <div class="content">
                     <div class="item-bordered item-border-radius">
                         <img data-src="assets/img/about-img.jpg" class="img-cover img-responsive lazy"
                             src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            alt="">
+                            alt="Team">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+            -->
+
     <div class="container">
         <div class="row items spincrement-container">
+            <h2 class="nosotros-experiencia">Nuestra experiencia</h2>
             <div class="col-xl-3 col-md-6 col-12 item">
                 <div class="counter-min">
                     <div class="counter-min-block">
@@ -100,6 +134,14 @@
     </div>
 </section>
 
+<div class="btn-group align-items-center justify-content-center">
+    <a href="/servicios" class="btn btn-border btn-with-icon btn-small ripple">
+        <span>Conoce todos nuestros servicios</span>
+        <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
+            <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+        </svg>
+    </a>
+</div>
 
 <!-- <section class="section section-without-padding-bottom">
     <div class="container">
