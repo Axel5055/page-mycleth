@@ -1,7 +1,7 @@
 @extends('templates.mycleth')
 
 @section('content')
-INICIO
+
 <section class="section-bgc intro">
     <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
         <div class="container">
@@ -11,9 +11,11 @@ INICIO
                         <div class="section-heading shm-none">
                             <!-- <div class="section-subheading">Free template</div> -->
                             <h1>Nuestro Enfoque</h1>
-                            <p class="section-desc">Llevamos nuestros conocimientos a nuestros clientes. Nos enfocamos
-                                en la resolucion de problemas y en la administracion eficiente de la
-                                infraestructura,reduciendo costos de operacion.</p>
+                            <p class="section-desc">
+                            Nos dedicamos a brindar soluciones digitales que trascienden las expectativas. 
+                            Desde el diseño web hasta el desarrollo de software y el marketing digital, cada 
+                            iniciativa está imbuida con nuestra pasión por la innovación y la excelencia.
+                            </p>
                         </div>
                         <div class="btn-group intro-btns">
                             <a href="/nosotros" class="btn btn-border btn-with-icon btn-small ripple">

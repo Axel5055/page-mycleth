@@ -1,12 +1,11 @@
 @extends('templates.mycleth')
 
 @section('content')
-CONTACTO
 <div class="section">
 				<div class="container">
 					<div class="row content-items">
 						<div class="col-12">
-							<div class="section-heading">
+							<div class="section-heading heading-center contacto">
 								<h1>CONTACTO</h1>
 							</div>
 						</div>
@@ -17,7 +16,7 @@ CONTACTO
 									<li>
 										<i class="material-icons material-icons-outlined md-22">location_on</i>
 										<div class="footer-contact-info">
-											<a href="https://maps.app.goo.gl/BqtnaNxvp4yZTQ968">
+											<a href="https://maps.app.goo.gl/BqtnaNxvp4yZTQ968" target="_blank">
 											Jordaens 73, Cd. de los Deportes, Benito Juárez 03710, CDMX
 											</a>
 										</div>
@@ -25,13 +24,13 @@ CONTACTO
 									<li>
 										<i class="material-icons material-icons-outlined md-22">smartphone</i>
 										<div class="footer-contact-info">
-											<a href="tel:+525582526624" class="formingHrefTel">+52 55 82 52 66 24</a>
+											<a href="tel:+525582526624" target="_blank" class="formingHrefTel">+52 55 82 52 66 24</a>
 										</div>
 									</li>
 									<li>
 										<i class="material-icons material-icons-outlined md-22">email</i>
 										<div class="footer-contact-info">
-											<a href="contacto@mycleth.com.mx">contacto@mycleth.com.mx</a>
+											<a href="contacto@mycleth.com.mx" target="_blank">contacto@mycleth.com.mx</a>
 										</div>
 									</li>
 									<li>

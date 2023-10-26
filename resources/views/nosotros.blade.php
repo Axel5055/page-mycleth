@@ -1,7 +1,6 @@
 @extends('templates.mycleth')
 
 @section('content')
-NOSOTROS
 <section class="section">
     <div class="container">
         <div class="row">
@@ -9,10 +8,24 @@ NOSOTROS
                 <div class="section-heading heading-center">
                     <!-- <div class="section-subheading">industry leader</div> -->
                     <h1>¿Quienes Somos?</h1>
-                    <p>Somos una empresa Mexicana que se enfoca principalmente en brindar soluciones integrales de
-                        diseño y desarrollo web, con la finalidad de potenciar al máximo los negocios de nuestros
-                        clientes y logren adquirir presencia en Internet a un precio accesible, así como posicionarse en
-                        esta nueva era digital del marketing.</p>
+                    <p>
+                        Somos más que una empresa mexicana de diseño y desarrollo web. Nos consideramos arquitectos 
+                        digitales, apasionados por crear experiencias en línea que trasciendan lo ordinario. 
+                        Nos dedicamos a potenciar los negocios de nuestros clientes, dotándolos de una presencia web 
+                        sólida y atractiva a un precio accesible.
+                    </p>
+                    <p>
+                        En esta era digital, donde el marketing redefine las reglas del juego, nos destacamos por 
+                        nuestra dedicación inquebrantable, nuestra profunda experiencia y nuestro compromiso 
+                        inflexible. Trabajamos incansablemente para ayudar a las empresas a destacarse en línea,
+                        a contar sus historias de manera cautivadora y a interactuar de manera significativa con 
+                        su audiencia.
+                    </p>
+                    <p>
+                    En My Cleth, no solo transformamos ideas en código y diseño; transformamos visiones en 
+                    realidad digital. Creemos en la innovación, la elegancia técnica y la creación de experiencias 
+                    digitales excepcionales que perduran en la memoria de quienes las encuentran.
+                    </p>
                     <br><br>
                     <!-- <p class="section-desc">We are an acknowledged corporate industry leader.</p> -->
                 </div>
@@ -230,8 +243,6 @@ NOSOTROS
     </div>
 </section>
 
-
-
 <section class="section">
     <div class="container">
         <div class="row">
@@ -254,7 +265,7 @@ NOSOTROS
                         </div>
                     </div>
                     <div class="reviews-item-text">
-                        <p>Es un empresario, inversor y magnate sudafricano
+                        <p>Empresario, inversor y magnate sudafricano
                             que también posee las nacionalidades canadiense y estadounidense.</p>
                     </div>
                 </div>
@@ -324,7 +335,7 @@ NOSOTROS
                         </div>
                     </div>
                     <div class="reviews-item-text">
-                        <p>Es un programador y empresario estadounidense, uno de los creadores y fundadores de Facebook
+                        <p>Programador y empresario estadounidense, uno de los creadores y fundadores de Facebook
                             y la red social homónima, y su actual presidente.</p>
                     </div>
                 </div>
@@ -341,7 +352,7 @@ NOSOTROS
                         </div>
                     </div>
                     <div class="reviews-item-text">
-                        <p>Es un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor
+                        <p>Empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor
                             estadounidense. Fue cofundador y presidente ejecutivo de Apple​ y máximo accionista
                             individual de The Walt Disney Company.​.</p>
                     </div>

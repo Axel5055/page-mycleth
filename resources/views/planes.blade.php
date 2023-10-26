@@ -1,24 +1,24 @@
 @extends('templates.mycleth')
 
 @section('content')
-PLANES
 <section class="section section-sm section-bottom-70 section-fluid bg-default">
     <div class="container">
-        <h2>Planes</h2>
+        <h2 class="heading-center">Planes</h2>
         <div class="row row-30 justify-content-center">
-            <div class="col-md-6 col-lg-5 col-xl-4" >
+            <div class="col-md-6 col-lg-5 col-xl-4">
                 <div class="box-pricing box-pricing-black">
-                    <div class="box-pricing-body">
-                        <h5 class="box-pricing-title">PERSONAL <br>PÁGINA CLÁSICA</h5>
+                    
+                <div class="box-pricing-body ">
+                        <h5 class="box-pricing-title">PERSONAL<br>PÁGINA CLÁSICA</h5>
                         <div class="divider"></div>
                         <h3 class="box-pricing-price">$249.00 MX/mes</h3>
                         <div class="box-pricing-time">¡ Oferta !</div><br>
                         <div class="divider"></div>
                         <div class="box-pricing-divider">
-                            <span><strong>Bacico</strong></span>
+                            <span><strong>Básico</strong></span>
                         </div>
-                        <h6 class="box-pricing-price">Para empezar.</h6>
-                        <ul class="box-pricing-list">
+                        <h6 class="box-pricing-price">Para empezar</h6>
+                        <ul class="box-pricing-list">   
                             <li class="active">Dominio Gratuito*</li>
                             <li class="active">Adaptación Móvil*</li>
                             <li class="active">Optimización SEO*</li>
@@ -40,10 +40,11 @@ PLANES
                             href="/contacto">Contratar</a></div>
                 </div>
             </div>
+
             <div class="col-md-6 col-lg-5 col-xl-4">
             <div class="box-pricing box-pricing-black box-pricing-popular">
-                <div class="box-pricing-body">
-                        <h5 class="box-pricing-title">EMPRENDEDOR <br> PÁGINA BASICA</h5>
+                <div class="box-pricing-body scrollable-container">
+                        <h5 class="box-pricing-title">EMPRENDEDOR<br> PÁGINA BASICA</h5>
                         <div class="divider"></div>
                         <h3 class="box-pricing-price">$299.00 MX/mes</h3>
                         <div class="box-pricing-time">¡ Oferta !</div><br>
@@ -51,7 +52,7 @@ PLANES
                         <div class="box-pricing-divider">
                             <span><strong>Popular</strong></span>
                         </div>
-                        <h6 class="box-pricing-price">Ingresa a Nuevos Mercados.</h6>
+                        <h6 class="box-pricing-price">Ingresa a Nuevos Mercados</h6>
                         <ul class="box-pricing-list">
                             <li class="active">Dominio Gratuito*</li>
                             <li class="active">Adaptación Móvil*</li>
@@ -80,7 +81,7 @@ PLANES
             </div>
             <div class="col-md-6 col-lg-5 col-xl-4">
                 <div class="box-pricing box-pricing-black">
-                    <div class="box-pricing-body">
+                    <div class="box-pricing-body scrollable-container">
                         <h5 class="box-pricing-title">NEGOCIOS <br>PÁGINA PROFESIONAL</h5>
                         <div class="divider"></div>
                         <h3 class="box-pricing-price">$429.00 MX/mes</h3>
