@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="css/style.css">
+
     <link rel="preload" href="assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2"
         as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2"

@@ -18,12 +18,17 @@
                     <div class="footer-item">
                         <nav class="footer-nav">
                             <ul class="footer-mnu footer-mnu-line">
-                                <li><a href="/" class="hover-link" data-title="Inicio"><span>Inicio</span></a></li>
-                                <li><a href="nosotros" class="hover-link" data-title="Nosotros"><span>Nosotros</span></a></li>
-                                <li><a href="servicios" class="hover-link" data-title="Servicios"><span>Servicios</span></a></li>
-                                <li><a href="planes" class="hover-link" data-title="Planes"><span>Planes</span></a></li>
+                                <li><a href="/" class="hover-link" data-title="Inicio"><span>Inicio</span></a>
+                                </li>
+                                <li><a href="nosotros" class="hover-link"
+                                        data-title="Nosotros"><span>Nosotros</span></a></li>
+                                <li><a href="servicios" class="hover-link"
+                                        data-title="Servicios"><span>Servicios</span></a></li>
+                                <li><a href="planes" class="hover-link" data-title="Planes"><span>Planes</span></a>
+                                </li>
                                 <!--<li><a href="#!" class="hover-link" data-title="News"><span>News</span></a></li>-->
-                                <li><a href="contacto" class="hover-link" data-title="Contacto"><span>Contacto</span></a></li>
+                                <li><a href="contacto" class="hover-link"
+                                        data-title="Contacto"><span>Contacto</span></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -35,7 +40,7 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="row justify-content-between items">
-            <div class="col-md-auto col-12 item">
+                <div class="col-md-auto col-12 item">
                     <span class="copyright">© 2023 MY CLETH. Todos los derechos reservados.</span>
                 </div>
                 <div class="col-md-auto col-12 item">
@@ -74,6 +79,12 @@
 
         if (url_format[url_format.length - 1] == 'nosotros') {
             $("#nosotros_nav").addClass('active');
+        } else if (url_format[url_format.length - 1] == 'servicios') {
+            $("#servicios_nav").addClass('active');
+        } else if (url_format[url_format.length - 1] == 'planes') {
+            $("#planes_nav").addClass('active');
+        } else if (url_format[url_format.length - 1] == 'contacto') {
+            $("#contacto_nav").addClass('active');
         } else {
             $("#inicio_nav").addClass('active');
         }

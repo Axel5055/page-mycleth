@@ -39,7 +39,8 @@
                         <div class="row flex-nowrap align-items-center justify-content-between">
                             <div class="col-auto header-fixed-col logo-wrapper">
                                 <a href="index.html" class="logo" title="PathSoft">
-                                    <img src="assets/img/logo-cleth.png" width="115" height="36" alt="Logo_MyCleth">
+                                    <img src="assets/img/logo-cleth.png" width="115" height="36"
+                                        alt="Logo_MyCleth">
                                 </a>
                             </div>
                             <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
@@ -63,22 +64,7 @@
                                                         <span>Servicios</span>
                                                     </a>
                                                 </li>
-                                                <!-- <li>
-                                                    <a href="typography.html" data-title="Typography">
-                                                        <span>Typography</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
-                                                        <span>Tabs & Accordions</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="news.html" data-title="News">
-                                                        <span>News</span>
-                                                    </a>
-                                                </li>-->
-                                                <li>
+                                                <li id="planes_nav">
                                                     <a href="/planes" data-title="Planes">
                                                         <span>Planes</span>
                                                     </a>
