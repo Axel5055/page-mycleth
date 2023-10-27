@@ -2,6 +2,7 @@
 
 @section('content')
 <section class="section">
+
     <div class="container">
         <div class="row">
             <header class="col-12">
@@ -9,7 +10,7 @@
                     <!-- <div class="section-subheading">industry leader</div> -->
                     <h1>¿Quiénes Somos?</h1>
 
-                    <div class="row nosotros-creative">
+                    <div class="row nosotros-div">
                         <div class="col-6">
                             <p>
                             Somos más que una empresa mexicana de diseño y desarrollo web. Nos consideramos arquitectos 
@@ -24,7 +25,7 @@
                         </div>
                     </div>
 
-                    <div class="row nosotros-team">
+                    <div class="row nosotros-div">
                     <div class="col-6">
                         <img data-src="assets/img/nosotros/team.jpg" class="img-cover img-responsive lazy"
                             src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
@@ -41,7 +42,7 @@
                         </div>
                     </div>
 
-                    <div class="row nosotros-code">
+                    <div class="row nosotros-div">
                         <div class="col-6">
                             <p>
                             En My Cleth, no solo transformamos ideas en código y diseño; transformamos visiones en 
@@ -55,26 +56,12 @@
                             alt="Code">
                         </div>
                     </div>
-                    <p>
-                    <br><br>
-                    <!-- <p class="section-desc">We are an acknowledged corporate industry leader.</p> -->
                 </div>
             </header>
-
-           <!--- <div class="col-12">
-                <div class="content">
-                    <div class="item-bordered item-border-radius">
-                        <img data-src="assets/img/about-img.jpg" class="img-cover img-responsive lazy"
-                            src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                            alt="Team">
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-            -->
-
-    <div class="container">
+    
+    <div class="container experiencia-container">
         <div class="row items spincrement-container">
             <h2 class="nosotros-experiencia">Nuestra experiencia</h2>
             <div class="col-xl-3 col-md-6 col-12 item">
@@ -134,7 +121,7 @@
     </div>
 </section>
 
-<div class="btn-group align-items-center justify-content-center">
+<div class="btn-group align-items-center justify-content-center nosotros-button">
     <a href="/servicios" class="btn btn-border btn-with-icon btn-small ripple">
         <span>Conoce todos nuestros servicios</span>
         <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">

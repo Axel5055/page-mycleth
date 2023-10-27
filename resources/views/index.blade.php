@@ -35,13 +35,13 @@
 <section class="section section-bgc">
     <div class="container">
         <div class="row items">
+
             <header class="col-12">
                 <div class="section-heading heading-center">
-                    <div class="section-subheading">Más de nuestra filosofía</div>
-                    <br><br>
-                    <!-- <h2>Latest News</h2> -->
+                    <div class="section-subheading">Nuestra filosofía</div>
                 </div>
             </header>
+
             <div class="col-lg-4 col-md-6 col-12 item">
                 <article class="news-item item-style">
                     <a href="news-post.html" class="news-item-img el">
@@ -62,6 +62,7 @@
                     </div>
                 </article>
             </div>
+
             <div class="col-lg-4 col-md-6 col-12 item">
                 <article class="news-item item-style">
                     <a href="news-post.html" class="news-item-img el">
@@ -80,6 +81,7 @@
                     </div>
                 </article>
             </div>
+
             <div class="col-lg-4 col-md-6 col-12 item">
                 <article class="news-item item-style">
                     <a href="news-post.html" class="news-item-img el">
@@ -98,6 +100,7 @@
                     </div>
                 </article>
             </div>
+
             <footer class="section-footer col-12 item section-footer-animate">
                 <div class="btn-group align-items-center justify-content-center">
                     <a href="/servicios" class="btn btn-border btn-with-icon btn-small ripple">
@@ -108,6 +111,7 @@
                     </a>
                 </div>
             </footer>
+            
         </div>
     </div>
 </section>

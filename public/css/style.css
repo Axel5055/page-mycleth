@@ -20273,6 +20273,9 @@ disabled look for disabled choices in the results dropdown
 .nosotros>h1{
 margin-bottom: 2em;
 }
+.nosotros-div{
+	place-items: center;
+}
 .nosotros-experiencia{
 margin-bottom: 45px;
 }
@@ -20282,9 +20285,13 @@ margin-bottom: 0px;
 padding-bottom: 0px;
 }
 .servicios, .clientes{
-	margin-bottom: 3em;
+margin-bottom: 3em;
 }
+.servicios-button, .planes-button, .nosotros-button{
+margin-bottom: 50px;
+}
+
+
 .contacto{
 	margin-bottom: 3em;
-
 }

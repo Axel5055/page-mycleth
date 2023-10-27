@@ -7,8 +7,8 @@
         <div class="row row-30 justify-content-center">
             <div class="col-md-6 col-lg-5 col-xl-4">
                 <div class="box-pricing box-pricing-black">
-                    
-                <div class="box-pricing-body ">
+
+                    <div class="box-pricing-body ">
                         <h5 class="box-pricing-title">PERSONAL<br>PÁGINA CLÁSICA</h5>
                         <div class="divider"></div>
                         <h3 class="box-pricing-price">$249.00 MX/mes</h3>
@@ -18,7 +18,7 @@
                             <span><strong>Básico</strong></span>
                         </div>
                         <h6 class="box-pricing-price">Para empezar</h6>
-                        <ul class="box-pricing-list">   
+                        <ul class="box-pricing-list">
                             <li class="active">Dominio Gratuito*</li>
                             <li class="active">Adaptación Móvil*</li>
                             <li class="active">Optimización SEO*</li>
@@ -36,14 +36,13 @@
                         <p class="">*Tiempo de entrega: 4 a 6 días.</p>
                         <p class="">**Facturando anualmente</p>
                     </div>
-                    <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4"
-                            href="/contacto">Contratar</a></div>
+                    <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4" href="/contacto">Contratar</a></div>
                 </div>
             </div>
 
             <div class="col-md-6 col-lg-5 col-xl-4">
-            <div class="box-pricing box-pricing-black box-pricing-popular">
-                <div class="box-pricing-body scrollable-container">
+                <div class="box-pricing box-pricing-black box-pricing-popular">
+                    <div class="box-pricing-body scrollable-container">
                         <h5 class="box-pricing-title">EMPRENDEDOR<br> PÁGINA BASICA</h5>
                         <div class="divider"></div>
                         <h3 class="box-pricing-price">$299.00 MX/mes</h3>
@@ -74,9 +73,8 @@
                         <p class="">*Tiempo de entrega: 6 a 8 días.</p>
                         <p class="">**Facturando anualmente</p>
                     </div>
-                    <div class="box-pricing-button"><a class="button button-lg button-block button-primary"
-                            href="/contacto">Contratar</a></div>
-                            <div class="box-pricing-badge">popular</div>
+                    <div class="box-pricing-button"><a class="button button-lg button-block button-primary" href="/contacto">Contratar</a></div>
+                    <div class="box-pricing-badge">popular</div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-5 col-xl-4">
@@ -114,13 +112,21 @@
                         <p class="">*Tiempo de entrega: 8 a 10 días.</p>
                         <p class="">**Facturando anualmente</p>
                     </div>
-                    <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4"
-                            href="/contacto">Contratar</a></div>
+                    <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4" href="/contacto">Contratar</a></div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<div class="btn-group align-items-center justify-content-center planes-button">
+    <a href="/contacto" class="btn btn-border btn-with-icon btn-small ripple">
+        <span>Ponte en contacto con nosotros</span>
+        <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
+            <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+        </svg>
+    </a>
+</div>
 
 @endsection
 

@@ -31,19 +31,17 @@
             </div>
         </div>
     </div>
+
     <div class="footer-bottom">
         <div class="container">
             <div class="row justify-content-between items">
-                <div class="col-md-auto col-12 item">
-                    <nav class="footer-links">
-                        <ul>
-                            <li><a href="https://mycleth.com.mx" target="_blank">DISEÑADO POR: MY CLETH</a></li>
-                            <!--<li><a href="privacy-policy.html">Privacy Policy</a></li>-->
-                        </ul>
-                    </nav>
+            <div class="col-md-auto col-12 item">
+                    <span class="copyright">© 2023 MY CLETH. Todos los derechos reservados.</span>
                 </div>
                 <div class="col-md-auto col-12 item">
-                    <div class="copyright">© 2022 MY CLETH. Todos los derechos reservados.</div>
+                    <nav class="footer-links">
+                        <!---íconos de redes sociales-->
+                    </nav>
                 </div>
             </div>
         </div>
