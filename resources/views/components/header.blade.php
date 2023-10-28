@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
 
-    <title>mycleth</title>
+    <title>mycleth - @yield('titulo')</title>
 
     <meta name="description" content="Description">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

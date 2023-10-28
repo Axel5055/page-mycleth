@@ -81,5 +81,5 @@
 @endsection
 
 @section('titulo')
-    Inicio
+    Planes
 @endsection

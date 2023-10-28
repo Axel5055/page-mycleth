@@ -1,30 +1,13 @@
 @extends('templates.mycleth')
 
 @section('content')
-    <!-- Begin bread crumbs -->
-    <nav class="bread-crumbs">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <ul class="bread-crumbs-list">
-                        <li>
-                            <a href="index.html">Inicio</a>
-                            <i class="material-icons md-18">chevron_right</i>
-                        </li>
-                        <li>Servicios</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav><!-- End bread crumbs -->
-
     <div class="section">
         <div class="container">
             <div class="row items">
                 <header class="col-12">
                     <div class="section-heading heading-center">
-                        <div class="section-subheading">Areas what we serv</div>
-                        <h1>Our Services</h1>
+                        <div class="section-subheading">Áreas a las que servimos</div>
+                        <h1>Nuestros Servicios</h1>
                     </div>
                 </header>
                 <div class="col-12 item">
@@ -205,5 +188,5 @@
 @endsection
 
 @section('titulo')
-    Inicio
+    Servicios
 @endsection

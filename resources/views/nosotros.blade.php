@@ -316,5 +316,5 @@
 @endsection
 
 @section('titulo')
-    Inicio
+    Nosotros
 @endsection
