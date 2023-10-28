@@ -1,7 +1,10 @@
 @extends('templates.mycleth')
 
 @section('content')
-    <section class="section section-bgc">
+
+<!----------------------------------SOMOS------------------------------------->
+
+    <section class="section section-bgc nosotros-section">
         <div class="container">
             <div class="row">
                 <header class="col-12">
@@ -63,12 +66,15 @@
                             </div>
                         </div>
                     </div>
+                    
                 </header>
             </div>
         </div>
     </section>
 
-    <section class="section">
+    <!----------------------------------EXPERIENCIA------------------------------------->
+
+    <section class="section experiencia-section">
         <div class="container experiencia-container">
             <div class="row items spincrement-container heading-center">
                 <h2 class="nosotros-experiencia">Nuestra experiencia</h2>
@@ -137,94 +143,13 @@
         </div>
     </section>
 
-    <section class="section section-bgc">
-        <div class="container">
-            <div class="row litems">
-                <header class="col-12">
-                    <div class="section-heading heading-center">
-                        <div class="section-subheading">¿Por qué elegirnos?</div>
-                        <h2>Nuestas Habilidades</h2>
-                    </div>
-                </header>
-                <div class="col-lg-4 col-md-6 col-12 litem">
-                    <div class="ini">
-                        <div class="ini-count">01</div>
-                        <div class="ini-info">
-                            <h3 class="ini-heading item-heading-large">High Quality <br> Hardware</h3>
-                            <div class="ini-desc">
-                                <p>We use top-notch hardware to develop the most efficient apps for our customers</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 litem">
-                    <div class="ini">
-                        <div class="ini-count">02</div>
-                        <div class="ini-info">
-                            <h3 class="ini-heading item-heading-large">Dedicated 24\7 <br> Support</h3>
-                            <div class="ini-desc">
-                                <p>You can rely on our 24/7 tech support that will gladly solve any app issue you may have.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 litem">
-                    <div class="ini">
-                        <div class="ini-count">03</div>
-                        <div class="ini-info">
-                            <h3 class="ini-heading item-heading-large">30-Day Money-back Guarantee</h3>
-                            <div class="ini-desc">
-                                <p>If you are not satisfied with our apps, we will return your money in the first 30 days.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 litem">
-                    <div class="ini">
-                        <div class="ini-count">04</div>
-                        <div class="ini-info">
-                            <h3 class="ini-heading item-heading-large">Agile and Fast <br> Working Style</h3>
-                            <div class="ini-desc">
-                                <p>This type of approach to our work helps our specialists to quickly develop better apps.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 litem">
-                    <div class="ini">
-                        <div class="ini-count">05</div>
-                        <div class="ini-info">
-                            <h3 class="ini-heading item-heading-large">Some Apps <br> are Free</h3>
-                            <div class="ini-desc">
-                                <p>We also develop free apps that can be downloaded online without any payments.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 litem">
-                    <div class="ini">
-                        <div class="ini-count">06</div>
-                        <div class="ini-info">
-                            <h3 class="ini-heading item-heading-large">High Level <br> of Usability</h3>
-                            <div class="ini-desc">
-                                <p>All our products have high usability allowing users to easily operate the apps.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!----------------------------------EQUIPO------------------------------------->
 
-    <section class="section">
+    <section class="section equipo-section">
         <div class="container">
             <div class="row">
                 <header class="col-12">
                     <div class="section-heading heading-center">
-                        <div class="section-subheading">Conoce a </div>
                         <h2>Nuestro Equipo</h2>
                     </div>
                 </header>
@@ -300,16 +225,21 @@
                         </div>
                     </div>
                 </div>
-                <footer class="section-footer col-12 section-footer-animate">
+
+                <!----------------------------------BOTÓN SERVICIOS------------------------------------->
+
+          <!--      <footer class="section-footer col-12 item section-footer-animate">
                     <div class="btn-group align-items-center justify-content-center">
-                        <a href="#!" class="btn btn-with-icon btn-w240 ripple">
-                            <span>See All Reviews</span>
+                        <a href="/servicios" class="btn btn-border btn-with-icon btn-small ripple">
+                            <span>Conoce todos nuestros servicios</span>
                             <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
                                 <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
                             </svg>
                         </a>
                     </div>
                 </footer>
+            -->
+
             </div>
         </div>
     </section>

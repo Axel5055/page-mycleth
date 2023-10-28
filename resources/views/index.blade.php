@@ -1,6 +1,9 @@
 @extends('templates.mycleth')
 
 @section('content')
+
+<!--------------------------------------NUESTRO ENFOQUE----------------------------------------------->
+
     <section class="section-bgc intro">
         <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
             <div class="container">
@@ -30,6 +33,8 @@
             </div>
         </div>
     </section>
+
+    <!--------------------------------------NUESTRAS BASES----------------------------------------------->
 
     <section class="section section-bgc">
         <div class="container">
@@ -105,6 +110,8 @@
                     </article>
                 </div>
 
+                <!--------------------------------------BOTÓN NOSOTROS----------------------------------------------->
+
                 <footer class="section-footer col-12 item section-footer-animate">
                     <div class="btn-group align-items-center justify-content-center">
                         <a href="/nosotros" class="btn btn-border btn-with-icon btn-small ripple">
@@ -119,6 +126,8 @@
             </div>
         </div>
     </section>
+
+    <!--------------------------------------NUESTROS SERVICIOS----------------------------------------------->
 
     <section class="section">
         <div class="container">
@@ -170,16 +179,20 @@
                             aplicaciones para celular en los sistemas operativos Android.</div>
                     </a>
                 </div>
-                <div class="section-footer col-12 section-footer-animate">
+                
+                <!--------------------------------------BOTÓN SERVICIOS----------------------------------------------->
+
+                <footer class="section-footer col-12 item section-footer-animate">
                     <div class="btn-group align-items-center justify-content-center">
-                        <a href="/servicios" class="btn btn-with-icon btn-w240 ripple">
-                            <span>Todos los servicios</span>
+                        <a href="/servicios" class="btn btn-border btn-with-icon btn-small ripple">
+                            <span>Conoce todos nuestros servicios</span>
                             <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
                                 <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
                             </svg>
                         </a>
                     </div>
-                </div>
+                </footer>
+
             </div>
         </div>
     </section>

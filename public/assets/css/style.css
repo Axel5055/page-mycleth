@@ -245,6 +245,12 @@ body {
     padding: 0;
     opacity: 1;
     background-color: var(--background-color);
+    -webkit-text-size-adjust: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 body.overflow-hidden {
@@ -3366,6 +3372,31 @@ body.mmm-open .mmm {
 .main-content .container .container {
     padding: 0;
 }
+
+/*---------------------------SOMOS-----------------------------*/
+
+.nosotros-section{
+    margin: 0;
+}
+.nosotros-div{
+	place-items: center;
+    margin: 50px;
+}
+
+/*---------------------------SERVICIOS-----------------------------*/
+
+.botones-servicios{
+    width: 100%;
+    padding-left: 25px;
+}
+
+/*---------------------------SERVICIOS-----------------------------*/
+
+.boton-planes{
+    margin-bottom: 25px;
+}
+
+
 
 /* 6.3 Footer */
 .footer {

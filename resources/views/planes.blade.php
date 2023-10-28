@@ -1,85 +1,94 @@
 @extends('templates.mycleth')
 
 @section('content')
-    <link rel="stylesheet" href="assets/css/planes.css">
+<link rel="stylesheet" href="assets/css/planes.css">
 
-    <!-- Pricing-->
-    <section class="section section-sm section-bottom-70 section-fluid bg-default">
-        <div class="container heading-center">
-            <h2>Pricing</h2>
-            <div class="row row-30 justify-content-center">
-                <div class="col-md-6 col-lg-5 col-xl-4">
-                    <div class="box-pricing box-pricing-black">
-                        <div class="box-pricing-body">
-                            <h5 class="box-pricing-title">basic</h5>
-                            <h3 class="box-pricing-price">$500.00</h3>
-                            <div class="box-pricing-time">starting at</div>
-                            <div class="box-pricing-divider">
-                                <div class="divider"></div><span>Basic</span>
-                            </div>
-                            <ul class="box-pricing-list">
-                                <li class="active">Concept development</li>
-                                <li class="active">UI design</li>
-                                <li>Configuration management</li>
-                                <li>Software quality assurance</li>
-                                <li>App integration</li>
-                            </ul>
+<!-- Pricing-->
+<section class="section section-sm section-bottom-70 section-fluid bg-default">
+    <div class="container heading-center">
+        <h2>Pricing</h2>
+        <div class="row row-30 justify-content-center">
+            <div class="col-md-6 col-lg-5 col-xl-4">
+                <div class="box-pricing box-pricing-black">
+                    <div class="box-pricing-body">
+                        <h5 class="box-pricing-title">basic</h5>
+                        <h3 class="box-pricing-price">$500.00</h3>
+                        <div class="box-pricing-time">starting at</div>
+                        <div class="box-pricing-divider">
+                            <div class="divider"></div><span>Basic</span>
                         </div>
-                        <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4"
-                                href="#">Get
-                                started</a></div>
+                        <ul class="box-pricing-list">
+                            <li class="active">Concept development</li>
+                            <li class="active">UI design</li>
+                            <li>Configuration management</li>
+                            <li>Software quality assurance</li>
+                            <li>App integration</li>
+                        </ul>
                     </div>
+                    <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4" href="#">Get
+                            started</a></div>
                 </div>
-                <div class="col-md-6 col-lg-5 col-xl-4">
-                    <div class="box-pricing box-pricing-black box-pricing-popular">
-                        <div class="box-pricing-body">
-                            <h5 class="box-pricing-title">Optimal</h5>
-                            <h3 class="box-pricing-price">$800.00</h3>
-                            <div class="box-pricing-time">starting at</div>
-                            <div class="box-pricing-divider">
-                                <div class="divider"></div><span>Optimal</span>
-                            </div>
-                            <ul class="box-pricing-list">
-                                <li class="active">Concept development</li>
-                                <li class="active">UI design</li>
-                                <li class="active">Configuration management</li>
-                                <li class="active">Software quality assurance</li>
-                                <li>App integration</li>
-                            </ul>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-4">
+                <div class="box-pricing box-pricing-black box-pricing-popular">
+                    <div class="box-pricing-body">
+                        <h5 class="box-pricing-title">Optimal</h5>
+                        <h3 class="box-pricing-price">$800.00</h3>
+                        <div class="box-pricing-time">starting at</div>
+                        <div class="box-pricing-divider">
+                            <div class="divider"></div><span>Optimal</span>
                         </div>
-                        <div class="box-pricing-button"><a class="button button-lg button-block button-primary"
-                                href="#">Get
-                                started</a></div>
-                        <div class="box-pricing-badge">popular</div>
+                        <ul class="box-pricing-list">
+                            <li class="active">Concept development</li>
+                            <li class="active">UI design</li>
+                            <li class="active">Configuration management</li>
+                            <li class="active">Software quality assurance</li>
+                            <li>App integration</li>
+                        </ul>
                     </div>
+                    <div class="box-pricing-button"><a class="button button-lg button-block button-primary" href="#">Get
+                            started</a></div>
+                    <div class="box-pricing-badge">popular</div>
                 </div>
-                <div class="col-md-6 col-lg-5 col-xl-4">
-                    <div class="box-pricing box-pricing-black">
-                        <div class="box-pricing-body">
-                            <h5 class="box-pricing-title">Ultimate</h5>
-                            <h3 class="box-pricing-price">$1200.00</h3>
-                            <div class="box-pricing-time">starting at</div>
-                            <div class="box-pricing-divider">
-                                <div class="divider"></div><span>Ultimate</span>
-                            </div>
-                            <ul class="box-pricing-list">
-                                <li class="active">Concept development</li>
-                                <li class="active">UI design</li>
-                                <li class="active">Configuration management</li>
-                                <li class="active">Software quality assurance</li>
-                                <li class="active">App integration</li>
-                            </ul>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-4">
+                <div class="box-pricing box-pricing-black">
+                    <div class="box-pricing-body">
+                        <h5 class="box-pricing-title">Ultimate</h5>
+                        <h3 class="box-pricing-price">$1200.00</h3>
+                        <div class="box-pricing-time">starting at</div>
+                        <div class="box-pricing-divider">
+                            <div class="divider"></div><span>Ultimate</span>
                         </div>
-                        <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4"
-                                href="#">Get
-                                started</a></div>
+                        <ul class="box-pricing-list">
+                            <li class="active">Concept development</li>
+                            <li class="active">UI design</li>
+                            <li class="active">Configuration management</li>
+                            <li class="active">Software quality assurance</li>
+                            <li class="active">App integration</li>
+                        </ul>
                     </div>
+                    <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4" href="#">Get
+                            started</a></div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+
+
+</section>
+
+<div class="btn-group align-items-center justify-content-center boton-planes">
+    <a href="/contacto" class="btn btn-border btn-with-icon btn-small ripple">
+        <span>Contáctanos y materialicemos tus ideas</span>
+        <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
+            <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+        </svg>
+    </a>
+</div>
+
 @endsection
 
 @section('titulo')
-    Planes
+Planes
 @endsection
