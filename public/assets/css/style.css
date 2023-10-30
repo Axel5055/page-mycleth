@@ -2154,7 +2154,7 @@ only screen and (min-width: 567px) and (max-width: 900px) and (orientation: land
     color: var(--background-color);
 }
 
-.iitem.iitem-hover:hover .iitem-icons {
+.iitem.iitem-hover:hover .iitem-icon {
     background: var(--background-color);
     color: var(--accent-color);
     fill: var(--accent-color);
