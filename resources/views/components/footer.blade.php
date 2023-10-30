@@ -64,11 +64,11 @@
 <script src="assets/js/forms.js"></script>
 
 <!--Whatsapp-->
-<a href="https://api.whatsapp.com/send?phone=525538901631&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n"
+<a href="https://api.whatsapp.com/send?phone=525582526624&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n"
     class="float" target="_blank">
     <img src="assets/img/logo-whats.png" alt="" />
 </a>
-<!---->
+<!---->525582526624
 
 <!-- Funcion Active Nav-->
 <script>

@@ -199,7 +199,7 @@
                 <x-modal />
                 <div class="ancho btn-group align-items-center justify-content-center">
                     <div class="boton btn-group align-items-center justify-content-center intro-btns  mx-5">
-                        <a href="/planes" class="btn btn-border btn-with-icon btn-small ripple">
+                        <a href="/planes" class="btn btn-secondary btn-with-icon btn-small ripple">
                             <span>Conoce nuestros planes</span>
                             <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
                                 <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
@@ -207,7 +207,7 @@
                         </a>
                     </div>
                     <div class="boton btn-group align-items-center justify-content-center intro-btns r">
-                        <a href="/contacto" class="btn btn-border btn-with-icon btn-small ripple">
+                        <a href="/contacto" class="btn btn-secondary btn-with-icon btn-small ripple">
                             <span>Contactanos para cotizar a tu medida</span>
                             <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
                                 <use xlink:href="assets/img/sprite.svg#arrow-right"></use>

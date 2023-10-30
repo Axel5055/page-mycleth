@@ -29,5 +29,7 @@
         crossorigin>
     <link rel="preload" href="assets/fonts/material-icons/material-icons-outlined.woff2" as="font"
         type="font/woff2" crossorigin>
+    <link rel="stylesheet" type="text/css"
+        href="//fonts.googleapis.com/css?family=Poppins:400,500,600%7CTeko:300,400,500%7CMaven+Pro:500">
 
 </head>
