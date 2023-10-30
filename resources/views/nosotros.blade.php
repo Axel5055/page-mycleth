@@ -1,8 +1,7 @@
 @extends('templates.mycleth')
 
 @section('content')
-
-<!----------------------------------SOMOS------------------------------------->
+    <!----------------------------------SOMOS------------------------------------->
 
     <section class="section section-bgc nosotros-section">
         <div class="container">
@@ -66,7 +65,6 @@
                             </div>
                         </div>
                     </div>
-                    
                 </header>
             </div>
         </div>
@@ -145,7 +143,7 @@
 
     <!----------------------------------EQUIPO------------------------------------->
 
-    <section class="section equipo-section">
+    <section class="section equipo-section section-bgc">
         <div class="container">
             <div class="row">
                 <header class="col-12">
@@ -228,17 +226,17 @@
 
                 <!----------------------------------BOTÓN SERVICIOS------------------------------------->
 
-          <!--      <footer class="section-footer col-12 item section-footer-animate">
-                    <div class="btn-group align-items-center justify-content-center">
-                        <a href="/servicios" class="btn btn-border btn-with-icon btn-small ripple">
-                            <span>Conoce todos nuestros servicios</span>
-                            <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
-                                <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                            </svg>
-                        </a>
-                    </div>
-                </footer>
-            -->
+                <!--      <footer class="section-footer col-12 item section-footer-animate">
+                            <div class="btn-group align-items-center justify-content-center">
+                                <a href="/servicios" class="btn btn-border btn-with-icon btn-small ripple">
+                                    <span>Conoce todos nuestros servicios</span>
+                                    <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
+                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </footer>
+                    -->
 
             </div>
         </div>

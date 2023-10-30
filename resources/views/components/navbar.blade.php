@@ -15,12 +15,12 @@
                             <a href="nosotros">Nosotros</a>
                         </li>
                         <li>
-                            <a href="/404">Servicios</a>
-                        </li>
-                        <!--<li>
-                            <a href="typography.html">Typography</a>
+                            <a href="/servicios">Servicios</a>
                         </li>
                         <li>
+                            <a href="/planes">Planes</a>
+                        </li>
+                        <!--<li>
                             <a href="tabs-and-accordions.html">Tabs & Accordions</a>
                         </li>
                         <li>
