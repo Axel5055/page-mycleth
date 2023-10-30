@@ -11,7 +11,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 
-    <link rel="icon" href="assets/img/favicon/cleth.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon/logo-cleth.ico" data-href-light="assets/img/favicon/logo-cleth.ico"
+        data-href-dark="assets/img/favicon/logo-cleth-dark.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
     <link rel="stylesheet" href="assets/css/style.css">
