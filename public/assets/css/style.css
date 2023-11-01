@@ -3378,7 +3378,7 @@ body.mmm-open .mmm {
 .nosotros-section{
     margin: 0;
 }
-.nosotros-div{
+.nosotrosDiv{
 	place-items: center;
     margin: 50px;
 }
@@ -3390,11 +3390,34 @@ body.mmm-open .mmm {
     padding-left: 25px;
 }
 
-/*---------------------------SERVICIOS-----------------------------*/
+/*---------------------------PLANES-----------------------------*/
 
 .boton-planes{
     margin-bottom: 25px;
 }
+
+
+/*-------------------------- NOSOTROS ---------------------------*/
+/* Animación de desplazamiento desde la izquierda */
+.slide-in-left {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/* Animación de desplazamiento desde la derecha */
+.slide-in-right {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/* Clase para activar la animación cuando entra en el campo de visión */
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 
 
 
