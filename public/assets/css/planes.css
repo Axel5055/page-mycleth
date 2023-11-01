@@ -2525,6 +2525,10 @@ h4 + .instafeed {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .bottom {
@@ -2537,7 +2541,7 @@ h4 + .instafeed {
 }
 
 .top {
-    background-color: rgb(77, 69, 173);
+    background-color: #4e91c8;
     z-index: 2;
     width: 50vw;
 

@@ -8,13 +8,13 @@
         <div class="panel bottom">
             <div class="content">
                 <div class="description">
-                    <h1>¿POR QUÉ ELEGIRNOS?</h1>
+                    <h1 class="h2-blanco">¿POR QUÉ ELEGIRNOS?</h1>
                     <p>En My Cleth, no solo transformamos ideas en código y diseño; transformamos visiones en
                         realidad digital. Creemos en la innovación, la elegancia técnica y la creación de
                         experiencias
                         digitales excepcionales que perduran en la memoria de quienes las encuentran.</p>
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/original-image.jpg" alt="Original">
+                <img src="assets/img/nosotros/team.jpg" alt="Original">
             </div>
         </div>
         <div class="panel top">
@@ -28,7 +28,7 @@
                         web
                         sólida y atractiva a un precio accesible.</p>
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/duotone-image.jpg" alt="Duotone">
+                <img src="assets/img/nosotros/team2.jpg" alt="Duotone">
             </div>
         </div>
         <div class="handle"></div>

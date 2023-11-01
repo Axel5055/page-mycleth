@@ -67,8 +67,7 @@
                             </div>
                         </div>
                         <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4"
-                                href="https://api.whatsapp.com/send?phone=525582526624&text=Hola,%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n%20del%20plan%20personal."
-                                target="_blank">VER MÁS CARACTERÍSTICAS</a>
+                                href="/404" target="_blank">VER MÁS CARACTERÍSTICAS</a>
                         </div>
                     </div>
                 </div>
@@ -109,8 +108,7 @@
                             </div>
                         </div>
                         <div class="box-pricing-button"><a class="button button-lg button-block button-primary"
-                                href="https://api.whatsapp.com/send?phone=525582526624&text=Hola,%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n%20del%20plan%20emprendedor."
-                                target="_blank">Contratar</a></div>
+                                href="/404" target="_blank">VER MÁS CARACTERÍSTICAS</a></div>
                         <div class="box-pricing-badge">popular</div>
                     </div>
                 </div>
@@ -149,8 +147,7 @@
                             </div>
                         </div>
                         <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4"
-                                href="https://api.whatsapp.com/send?phone=525582526624&text=Hola,%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n%20del%20plan%20negocios."
-                                target="_blank" target="_blank">Contratar</a></div>
+                                href="/404" target="_blank" target="_blank">VER MÁS CARACTERÍSTICAS</a></div>
                     </div>
                 </div>
             </div>

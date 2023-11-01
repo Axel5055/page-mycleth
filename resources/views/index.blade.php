@@ -1,38 +1,152 @@
 @extends('templates.mycleth')
 
 @section('content')
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!--------------------------------------NUESTRO ENFOQUE----------------------------------------------->
 
-<!--------------------------------------NUESTRO ENFOQUE----------------------------------------------->
-
-    <section class="section-bgc intro">
-        <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="intro-content" style="--margin-left: 4rem;">
-                            <div class="section-heading shm-none">
-                                <!-- <div class="section-subheading">Free template</div> -->
-                                <h1>Nuestro Enfoque</h1>
-                                <p class="section-desc">
-                                    Nos dedicamos a brindar soluciones digitales que trascienden las expectativas.
-                                    Desde el diseño web hasta el desarrollo de software y el marketing digital, cada
-                                    iniciativa está imbuida con nuestra pasión por la innovación y la excelencia.
-                                </p>
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="section-bgc intro">
+                    <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="intro-content" style="--margin-left: 4rem;">
+                                        <div class="section-heading shm-none">
+                                            <div class="section-subheading">Free template</div>
+                                            <h1>#1 The Fastest HTML5 Template</h1>
+                                            <p class="section-desc">The free template is the simplified version of the
+                                                premium template, but you can use it for your own purposes. The premium
+                                                template includes a lot of functionality.</p>
+                                        </div>
+                                        <div class="btn-group intro-btns">
+                                            <a href="https://www.templatemonster.com/website-templates/pathsoft-it-solutions-for-your-business-services-website-template-83414.html?utm_campaign=blog_site_KovalWeb&utm_source=KovalWeb&utm_medium=referral&aff=KovalWeb"
+                                                class="btn btn-border btn-with-icon btn-small ripple">
+                                                <span>HTML5</span>
+                                                <svg class="btn-icon-right" viewBox="0 0 13 9" width="13"
+                                                    height="9">
+                                                    <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                                </svg>
+                                            </a>
+                                            <a href="https://www.templatemonster.com/wordpress-themes/pathsoft-it-solutions-for-your-business-services-wordpress-theme-99496.html?utm_campaign=blog_site_KovalWeb&utm_source=KovalWeb&utm_medium=referral&aff=KovalWeb"
+                                                class="btn btn-border btn-with-icon btn-small ripple">
+                                                <span>WordPress</span>
+                                                <svg class="btn-icon-right" viewBox="0 0 13 9" width="13"
+                                                    height="9">
+                                                    <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="btn-group intro-btns">
-                                <a href="/nosotros" class="btn btn-border btn-with-icon btn-small ripple">
-                                    <span>Conócenos</span>
-                                    <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                                    </svg>
-                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="section-bgc intro">
+                    <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="intro-content" style="--margin-left: 4rem;">
+                                        <div class="section-heading shm-none">
+                                            <div class="section-subheading">Free template</div>
+                                            <h1>#1 The Fastest HTML5 Template</h1>
+                                            <p class="section-desc">The free template is the simplified version of the
+                                                premium template, but you can use it for your own purposes. The premium
+                                                template includes a lot of functionality.</p>
+                                        </div>
+                                        <div class="btn-group intro-btns">
+                                            <a href="https://www.templatemonster.com/website-templates/pathsoft-it-solutions-for-your-business-services-website-template-83414.html?utm_campaign=blog_site_KovalWeb&utm_source=KovalWeb&utm_medium=referral&aff=KovalWeb"
+                                                class="btn btn-border btn-with-icon btn-small ripple">
+                                                <span>HTML5</span>
+                                                <svg class="btn-icon-right" viewBox="0 0 13 9" width="13"
+                                                    height="9">
+                                                    <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                                </svg>
+                                            </a>
+                                            <a href="https://www.templatemonster.com/wordpress-themes/pathsoft-it-solutions-for-your-business-services-wordpress-theme-99496.html?utm_campaign=blog_site_KovalWeb&utm_source=KovalWeb&utm_medium=referral&aff=KovalWeb"
+                                                class="btn btn-border btn-with-icon btn-small ripple">
+                                                <span>WordPress</span>
+                                                <svg class="btn-icon-right" viewBox="0 0 13 9" width="13"
+                                                    height="9">
+                                                    <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="section-bgc intro">
+                    <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="intro-content" style="--margin-left: 4rem;">
+                                        <div class="section-heading shm-none">
+                                            <div class="section-subheading">Free template</div>
+                                            <h1>#1 The Fastest HTML5 Template</h1>
+                                            <p class="section-desc">The free template is the simplified version of the
+                                                premium template, but you can use it for your own purposes. The premium
+                                                template includes a lot of functionality.</p>
+                                        </div>
+                                        <div class="btn-group intro-btns">
+                                            <a href="https://www.templatemonster.com/website-templates/pathsoft-it-solutions-for-your-business-services-website-template-83414.html?utm_campaign=blog_site_KovalWeb&utm_source=KovalWeb&utm_medium=referral&aff=KovalWeb"
+                                                class="btn btn-border btn-with-icon btn-small ripple">
+                                                <span>HTML5</span>
+                                                <svg class="btn-icon-right" viewBox="0 0 13 9" width="13"
+                                                    height="9">
+                                                    <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                                </svg>
+                                            </a>
+                                            <a href="https://www.templatemonster.com/wordpress-themes/pathsoft-it-solutions-for-your-business-services-wordpress-theme-99496.html?utm_campaign=blog_site_KovalWeb&utm_source=KovalWeb&utm_medium=referral&aff=KovalWeb"
+                                                class="btn btn-border btn-with-icon btn-small ripple">
+                                                <span>WordPress</span>
+                                                <svg class="btn-icon-right" viewBox="0 0 13 9" width="13"
+                                                    height="9">
+                                                    <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- End Carousel -->
 
     <!--------------------------------------NUESTRAS BASES----------------------------------------------->
 
@@ -179,7 +293,7 @@
                             aplicaciones para celular en los sistemas operativos Android.</div>
                     </a>
                 </div>
-                
+
                 <!--------------------------------------BOTÓN SERVICIOS----------------------------------------------->
 
                 <footer class="section-footer col-12 item section-footer-animate">

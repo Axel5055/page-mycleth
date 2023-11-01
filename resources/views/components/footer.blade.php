@@ -63,6 +63,7 @@
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/forms.js"></script>
 <script src="assets/js/about.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <!--Whatsapp-->
 <a href="https://api.whatsapp.com/send?phone=525582526624&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n"
