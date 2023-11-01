@@ -1,74 +1,38 @@
 @extends('templates.mycleth')
 
 @section('content')
+    <link rel="stylesheet" href="assets/css/planes.css">
     <!----------------------------------SOMOS------------------------------------->
 
-    <section class="section section-bgc nosotros-section">
-        <div class="container">
-            <div class="row">
-                <header class="col-12">
-                    <div class="section-heading heading-center">
-                        <header class="col-12">
-                            <div class="section-heading heading-center">
-                                <!-- <div class="section-subheading">industry leader</div> -->
-                                <h2>¿Quiénes Somos?</h2>
-                            </div>
-                        </header>
-                        <div class="row nosotros-div">
-                            <div class="col-6">
-                                <p>
-                                    Somos más que una empresa mexicana de diseño y desarrollo web. Nos consideramos
-                                    arquitectos
-                                    digitales, apasionados por crear experiencias en línea que trasciendan lo ordinario.
-                                    Nos dedicamos a potenciar los negocios de nuestros clientes, dotándolos de una presencia
-                                    web
-                                    sólida y atractiva a un precio accesible.
-                                </p>
-                            </div>
-                            <div class="col-6">
-                                <img data-src="assets/img/nosotros/creative.jpg" class="img-cover img-responsive lazy"
-                                    alt="Creative">
-                            </div>
-                        </div>
-
-                        <div class="row nosotros-div">
-                            <div class="col-6">
-                                <img data-src="assets/img/nosotros/team.jpg" class="img-cover img-responsive lazy"
-                                    src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                                    alt="Team">
-                            </div>
-                            <div class="col-6">
-                                <p>
-                                    En esta era digital, donde el marketing redefine las reglas del juego, nos destacamos
-                                    por
-                                    nuestra dedicación inquebrantable, nuestra profunda experiencia y nuestro compromiso
-                                    inflexible. Trabajamos incansablemente para ayudar a las empresas a destacarse en línea,
-                                    a contar sus historias de manera cautivadora y a interactuar de manera significativa con
-                                    su audiencia.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row nosotros-div">
-                            <div class="col-6">
-                                <p>
-                                    En My Cleth, no solo transformamos ideas en código y diseño; transformamos visiones en
-                                    realidad digital. Creemos en la innovación, la elegancia técnica y la creación de
-                                    experiencias
-                                    digitales excepcionales que perduran en la memoria de quienes las encuentran.
-                                </p>
-                            </div>
-                            <div class="col-6">
-                                <img data-src="assets/img/nosotros/code.jpg" class="img-cover img-responsive lazy"
-                                    src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
-                                    alt="Code">
-                            </div>
-                        </div>
-                    </div>
-                </header>
+    <div class="splitview skewed">
+        <div class="panel bottom">
+            <div class="content">
+                <div class="description">
+                    <h1>¿POR QUÉ ELEGIRNOS?</h1>
+                    <p>En My Cleth, no solo transformamos ideas en código y diseño; transformamos visiones en
+                        realidad digital. Creemos en la innovación, la elegancia técnica y la creación de
+                        experiencias
+                        digitales excepcionales que perduran en la memoria de quienes las encuentran.</p>
+                </div>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/original-image.jpg" alt="Original">
             </div>
         </div>
-    </section>
+        <div class="panel top">
+            <div class="content">
+                <div class="description">
+                    <h2>¿QUIÉNES SOMOS?</h2>
+                    <p>Somos más que una empresa mexicana de diseño y desarrollo web. Nos consideramos
+                        arquitectos
+                        digitales, apasionados por crear experiencias en línea que trasciendan lo ordinario.
+                        Nos dedicamos a potenciar los negocios de nuestros clientes, dotándolos de una presencia
+                        web
+                        sólida y atractiva a un precio accesible.</p>
+                </div>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/duotone-image.jpg" alt="Duotone">
+            </div>
+        </div>
+        <div class="handle"></div>
+    </div>
 
     <!----------------------------------EXPERIENCIA------------------------------------->
 
@@ -182,7 +146,8 @@
                             </div>
                         </div>
                         <div class="reviews-item-text">
-                            <p>Programador y empresario estadounidense, uno de los creadores y fundadores de Facebook
+                            <p>Programador y empresario estadounidense, uno de los creadores y fundadores de
+                                Facebook
                                 y la red social homónima, y su actual presidente.</p>
                         </div>
                     </div>
@@ -199,8 +164,10 @@
                             </div>
                         </div>
                         <div class="reviews-item-text">
-                            <p>Empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor
-                                estadounidense. Fue cofundador y presidente ejecutivo de Apple​ y máximo accionista
+                            <p>Empresario, diseñador industrial, magnate empresarial, propietario de medios e
+                                inversor
+                                estadounidense. Fue cofundador y presidente ejecutivo de Apple​ y máximo
+                                accionista
                                 individual de The Walt Disney Company.​.</p>
                         </div>
                     </div>
@@ -217,27 +184,15 @@
                             </div>
                         </div>
                         <div class="reviews-item-text">
-                            <p>Es un magnate empresarial, desarrollador de software, inversor, autor y filántropo
-                                estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de la infancia Paul
+                            <p>Es un magnate empresarial, desarrollador de software, inversor, autor y
+                                filántropo
+                                estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de la
+                                infancia
+                                Paul
                                 Allen.</p>
                         </div>
                     </div>
                 </div>
-
-                <!----------------------------------BOTÓN SERVICIOS------------------------------------->
-
-                <!--      <footer class="section-footer col-12 item section-footer-animate">
-                            <div class="btn-group align-items-center justify-content-center">
-                                <a href="/servicios" class="btn btn-border btn-with-icon btn-small ripple">
-                                    <span>Conoce todos nuestros servicios</span>
-                                    <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                                    </svg>
-                                </a>
-                            </div>
-                        </footer>
-                    -->
-
             </div>
         </div>
     </section>
