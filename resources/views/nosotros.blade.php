@@ -10,12 +10,11 @@
                     <div class="section-heading heading-center">
                         <header class="col-12">
                             <div class="section-heading heading-center">
-                                <!-- <div class="section-subheading">industry leader</div> -->
                                 <h2>¿Quiénes Somos?</h2>
                             </div>
                         </header>
-                        <div class="row nosotros-div">
-                            <div class="col-6">
+                        <div class="row nosotrosDiv slide-in-left">
+                            <div class="col-lg-6 col-sm-12">
                                 <p>
                                     Somos más que una empresa mexicana de diseño y desarrollo web. Nos consideramos
                                     arquitectos
@@ -25,19 +24,18 @@
                                     sólida y atractiva a un precio accesible.
                                 </p>
                             </div>
-                            <div class="col-6">
-                                <img data-src="assets/img/nosotros/creative.jpg" class="img-cover img-responsive lazy"
+                            <div class="col-lg-6 col-sm-12">
+                                <img data-src="assets/img/nosotros/mkt.jpg" class="img-cover img-responsive lazy"
                                     alt="Creative">
                             </div>
                         </div>
 
-                        <div class="row nosotros-div">
-                            <div class="col-6">
-                                <img data-src="assets/img/nosotros/team.jpg" class="img-cover img-responsive lazy"
-                                    src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                        <div class="row nosotrosDiv slide-in-right">
+                            <div class="col-lg-6 col-sm-12">
+                                <img data-src="assets/img/nosotros/teamBlue.jpg" class="img-cover img-responsive lazy"
                                     alt="Team">
                             </div>
-                            <div class="col-6">
+                            <div class="col-lg-6 col-sm-12">
                                 <p>
                                     En esta era digital, donde el marketing redefine las reglas del juego, nos destacamos
                                     por
@@ -49,8 +47,8 @@
                             </div>
                         </div>
 
-                        <div class="row nosotros-div">
-                            <div class="col-6">
+                        <div class="row nosotrosDiv slide-in-left">
+                            <div class="col-lg-6 col-sm-12">
                                 <p>
                                     En My Cleth, no solo transformamos ideas en código y diseño; transformamos visiones en
                                     realidad digital. Creemos en la innovación, la elegancia técnica y la creación de
@@ -58,9 +56,8 @@
                                     digitales excepcionales que perduran en la memoria de quienes las encuentran.
                                 </p>
                             </div>
-                            <div class="col-6">
-                                <img data-src="assets/img/nosotros/code.jpg" class="img-cover img-responsive lazy"
-                                    src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+                            <div class="col-lg-6 col-sm-12">
+                                <img data-src="assets/img/nosotros/codeBlue.jpg" class="img-cover img-responsive lazy"
                                     alt="Code">
                             </div>
                         </div>

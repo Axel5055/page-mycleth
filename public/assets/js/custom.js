@@ -408,6 +408,27 @@
 		},
 		
 	}
+
+// Selecciona todos los elementos con la clase nosotrosDiv
+const elements = document.querySelectorAll('.nosotrosDiv');
+
+// Crea una nueva instancia de IntersectionObserver con una función de devolución de llamada
+const observer = new IntersectionObserver(entries => {
+    // Itera sobre las entradas y activa la clase show si el elemento está en el campo de visión
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+    });
+}, {
+    threshold: 0.2 // Umbral de visibilidad del 20%
+});
+
+// Observa cada elemento y activa la clase show cuando está en el campo de visión
+elements.forEach(element => {
+    observer.observe(element);
+});	
+
  
 	app.init();
 
