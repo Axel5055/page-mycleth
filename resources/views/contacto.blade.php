@@ -26,7 +26,7 @@
                             <li>
                                 <i class="material-icons material-icons-outlined md-22">smartphone</i>
                                 <div class="footer-contact-info">
-                                    <a href="tel:+525582526624" target="_blank" class="formingHrefTel">+52 55 82 52 66
+                                    <a href="tel:+525582526624" target="_blank" class="formingHrefTel">+52 55 2526 1379
                                         24</a>
                                 </div>
                             </li>

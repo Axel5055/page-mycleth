@@ -33,7 +33,7 @@
                     </a>
                 </div>
                 <div class="justify-content-center">
-                    <a href="https://api.whatsapp.com/send?phone=525582526624&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sistemas%20de%20gesti%C3%B3n."
+                    <a href="https://api.whatsapp.com/send?phone=5215525261379&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sistemas%20de%20gesti%C3%B3n."
                         target="_blank" class="btn btn-secondary btn-with-icon btn-small ripple">
                         <span>Cotiza aquí</span>
                     </a>
@@ -81,7 +81,7 @@
                     </a>
                 </div>
                 <div class="justify-content-center">
-                    <a href="https://api.whatsapp.com/send?phone=525582526624&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20paginas%20WEB."
+                    <a href="https://api.whatsapp.com/send?phone=5215525261379&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20paginas%20WEB."
                         target="_blank" class="btn btn-secondary btn-with-icon btn-small ripple">
                         <span>Cotiza aquí</span>
                     </a>
@@ -129,7 +129,7 @@
                     </a>
                 </div>
                 <div class="justify-content-center">
-                    <a href="https://api.whatsapp.com/send?phone=525582526624&text=Hola,%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20desarrollo%20de%20apps."
+                    <a href="https://api.whatsapp.com/send?phone=5215525261379&text=Hola,%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20desarrollo%20de%20apps."
                         target="_blank" class="btn btn-secondary btn-with-icon btn-small ripple">
                         <span>Cotiza aquí</span>
                     </a>
@@ -185,7 +185,7 @@
                     </a>
                 </div>
                 <div class="justify-content-center">
-                    <a href="https://api.whatsapp.com/send?phone=525582526624&text=Hola,%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20un%2punto%20de%20ventas."
+                    <a href="https://api.whatsapp.com/send?phone=5215525261379&text=Hola,%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20un%2punto%20de%20ventas."
                         target="_blank" class="btn btn-secondary btn-with-icon btn-small ripple">
                         <span>Cotiza aquí</span>
                     </a>
@@ -238,7 +238,7 @@
                     </a>
                 </div>
                 <div class="justify-content-center">
-                    <a href="https://api.whatsapp.com/send?phone=525582526624&text=Hola,%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20marketing%20digital."
+                    <a href="https://api.whatsapp.com/send?phone=5215525261379&text=Hola,%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20marketing%20digital."
                         target="_blank" class="btn btn-secondary btn-with-icon btn-small ripple">
                         <span>Cotiza aquí</span>
                     </a>
@@ -295,7 +295,7 @@
                     </a>
                 </div>
                 <div class="justify-content-center">
-                    <a href="https://api.whatsapp.com/send?phone=525582526624&text=Hola,%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20desarrollo%20de%20un%20E-Commerce."
+                    <a href="https://api.whatsapp.com/send?phone=5215525261379&text=Hola,%20me%20gustaria%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20desarrollo%20de%20un%20E-Commerce."
                         target="_blank" class="btn btn-secondary btn-with-icon btn-small ripple">
                         <span>Cotiza aquí</span>
                     </a>

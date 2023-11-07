@@ -38,7 +38,7 @@
                     <div class="container">
                         <div class="row flex-nowrap align-items-center justify-content-between">
                             <div class="col-auto header-fixed-col logo-wrapper">
-                                <a href="index.html" class="logo" title="PathSoft">
+                                <a href="/" class="logo" title="PathSoft">
                                     <img src="assets/img/logo-cleth.png" width="115" height="36"
                                         alt="Logo_MyCleth">
                                 </a>
