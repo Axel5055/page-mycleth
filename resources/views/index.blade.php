@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="7000">
-                <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
+                <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img5.jpg');">
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
+                <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img6.jpg');">
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -139,10 +139,8 @@
                                 <a href="news-post.html" title="Haz crecer tu negocio">Misión</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis voluptatem quisquam
-                                    quo
-                                    doloribus eaque eum reprehenderit impedit repellat voluptate molestiae temporibus ea
-                                    dolorum, unde consectetur, nulla suscipit sit quasi atque.</p>
+                                <p>Brindar la mejor atencion posible y elevar continuamente el nivel de
+                                    la experiencia del cliente mediante el uso de internet y la tecnología.</p>
                             </div>
                         </div>
                     </article>
@@ -161,11 +159,8 @@
                                 <a href="news-post.html" title="Desarrollo Móvil">Visión</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsam illum
-                                    minima
-                                    eum aperiam sapiente, ratione esse in quis vel dolorem provident, similique cum
-                                    natus
-                                    minus sunt labore ad asperiores?</p>
+                                <p>Desarrollar, investigar y encontrar tecnologias sostenibles y actualizadas para mantener
+                                    a nuestros clientes seguros y al día.</p>
                             </div>
                         </div>
                     </article>
@@ -181,13 +176,10 @@
                         <div class="news-item-info">
                             <!-- <div class="news-item-date">01/01/2021</div> -->
                             <h3 class="news-item-heading item-heading">
-                                <a href="news-post.html" title="Desarrollo de Sistemas a la Medida">Nuestra etica</a>
+                                <a href="news-post.html" title="Desarrollo de Sistemas a la Medida">Valores</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo omnis molestias
-                                    nisi
-                                    blanditiis suscipit, perspiciatis quia magnam unde recusandae architecto a corrupti,
-                                    modi beatae asperiores, alias minima. Commodi, incidunt distinctio?</p>
+                                <p>Seguridad, integridad, atencion y pasión.</p>
                             </div>
                         </div>
                     </article>
