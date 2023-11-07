@@ -1,38 +1,117 @@
 @extends('templates.mycleth')
 
 @section('content')
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!--------------------------------------NUESTRO ENFOQUE----------------------------------------------->
 
-<!--------------------------------------NUESTRO ENFOQUE----------------------------------------------->
+    <!-- Carousel -->
 
-    <section class="section-bgc intro">
-        <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="intro-content" style="--margin-left: 4rem;">
-                            <div class="section-heading shm-none">
-                                <!-- <div class="section-subheading">Free template</div> -->
-                                <h1>Nuestro Enfoque</h1>
-                                <p class="section-desc">
-                                    Nos dedicamos a brindar soluciones digitales que trascienden las expectativas.
-                                    Desde el diseño web hasta el desarrollo de software y el marketing digital, cada
-                                    iniciativa está imbuida con nuestra pasión por la innovación y la excelencia.
-                                </p>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="7000">
+                <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="intro-content" style="--margin-left: 4rem;">
+                                    <div class="section-heading shm-none">
+                                        <div class="section-subheading">My Cleth</div>
+                                        <h1>Haz crecer tu negocio</h1>
+                                        <p class="section-desc">Fomentamos el crecimiento y desarrollo de nuestros
+                                            clientes al optimizar sus recursos de TI poniendo a su servicio más de 10
+                                            años de experiencia con un alto nivel de profesionalismo y pasión por la
+                                            tecnología.</p>
+                                    </div>
+                                    <div class="btn-group intro-btns">
+                                        <a href="/nosotros" class="btn btn-secondary btn-with-icon btn-small ripple">
+                                            <span>DESCUBRENOS</span>
+                                            <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
+                                                <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="btn-group intro-btns">
-                                <a href="/nosotros" class="btn btn-border btn-with-icon btn-small ripple">
-                                    <span>Conócenos</span>
-                                    <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                                    </svg>
-                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="7000">
+                <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="intro-content" style="--margin-left: 4rem;">
+                                    <div class="section-heading shm-none">
+                                        <div class="section-subheading">My Cleth</div>
+                                        <h1>Posicionate en Internet</h1>
+                                        <p class="section-desc">Toda empresa ya sea grande, mediana o pequeña necesita y
+                                            debe tener un sitio web ya que brinda una imagen profesional de la empresa,
+                                            ventajas competitivas y valores agregados para el cliente.</p>
+                                    </div>
+                                    <div class="btn-group intro-btns">
+                                        <a href="/nosotros" class="btn btn-secondary btn-with-icon btn-small ripple">
+                                            <span>DESCUBRENOS</span>
+                                            <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
+                                                <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="intro-content" style="--margin-left: 4rem;">
+                                    <div class="section-heading shm-none">
+                                        <div class="section-subheading">My Cleth</div>
+                                        <h1>Desarrollo de sistemas a medida</h1>
+                                        <p class="section-desc">Nace de la necesidad de resolver un problema muy particular
+                                            de su empresa, o bien porque desea tener una ventaja competitiva sobre sus
+                                            competidores o porque no existe una solución estándar en el mercado que se
+                                            adapte a su necesidad.</p>
+                                    </div>
+                                    <div class="btn-group intro-btns">
+                                        <a href="/nosotros" class="btn btn-secondary btn-with-icon btn-small ripple">
+                                            <span>DESCUBRENOS</span>
+                                            <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
+                                                <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- End Carousel -->
 
     <!--------------------------------------NUESTRAS BASES----------------------------------------------->
 
@@ -60,7 +139,8 @@
                                 <a href="news-post.html" title="Haz crecer tu negocio">Misión</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis voluptatem quisquam quo
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis voluptatem quisquam
+                                    quo
                                     doloribus eaque eum reprehenderit impedit repellat voluptate molestiae temporibus ea
                                     dolorum, unde consectetur, nulla suscipit sit quasi atque.</p>
                             </div>
@@ -81,8 +161,10 @@
                                 <a href="news-post.html" title="Desarrollo Móvil">Visión</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsam illum minima
-                                    eum aperiam sapiente, ratione esse in quis vel dolorem provident, similique cum natus
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsam illum
+                                    minima
+                                    eum aperiam sapiente, ratione esse in quis vel dolorem provident, similique cum
+                                    natus
                                     minus sunt labore ad asperiores?</p>
                             </div>
                         </div>
@@ -102,7 +184,8 @@
                                 <a href="news-post.html" title="Desarrollo de Sistemas a la Medida">Nuestra etica</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo omnis molestias nisi
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo omnis molestias
+                                    nisi
                                     blanditiis suscipit, perspiciatis quia magnam unde recusandae architecto a corrupti,
                                     modi beatae asperiores, alias minima. Commodi, incidunt distinctio?</p>
                             </div>
@@ -179,7 +262,7 @@
                             aplicaciones para celular en los sistemas operativos Android.</div>
                     </a>
                 </div>
-                
+
                 <!--------------------------------------BOTÓN SERVICIOS----------------------------------------------->
 
                 <footer class="section-footer col-12 item section-footer-animate">

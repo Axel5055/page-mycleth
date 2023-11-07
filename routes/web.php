@@ -26,3 +26,5 @@ Route::get('nosotros', [NosotrosController::class, 'index']);
 Route::get('servicios', [ServiciosController::class, 'index']);
 Route::get('contacto', [ContactoController::class, 'index']);
 Route::get('planes', [PlanesController::class, 'index']);
+
+Route::post('/contacto', [ContactoController::class, 'send'])->name('envio');
