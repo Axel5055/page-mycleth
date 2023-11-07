@@ -121,8 +121,7 @@
 
                 <header class="col-12">
                     <div class="section-heading heading-center">
-                        <div class="section-subheading">Nuestra filosofía</div>
-                        <h2>Nuestras bases</h2>
+                        <h2>Nuestra filosofía</h2>
                     </div>
                 </header>
 
@@ -139,10 +138,9 @@
                                 <a href="news-post.html" title="Haz crecer tu negocio">Misión</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis voluptatem quisquam
-                                    quo
-                                    doloribus eaque eum reprehenderit impedit repellat voluptate molestiae temporibus ea
-                                    dolorum, unde consectetur, nulla suscipit sit quasi atque.</p>
+                                <p>Transformar las ideas en soluciones digitales innovadoras y 
+                                    significativas. Nos dedicamos a crear experiencias en línea excepcionales que empoderan a 
+                                    las empresas y aportan valor a sus usuarios.</p>
                             </div>
                         </div>
                     </article>
@@ -161,11 +159,10 @@
                                 <a href="news-post.html" title="Desarrollo Móvil">Visión</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsam illum
-                                    minima
-                                    eum aperiam sapiente, ratione esse in quis vel dolorem provident, similique cum
-                                    natus
-                                    minus sunt labore ad asperiores?</p>
+                                <p>Liderar el panorama digital con creatividad, innovación y ética. 
+                                    Aspiramos a ser reconocidos como un referente en el campo del desarrollo web y móvil, destacándonos
+                                    por nuestra calidad, integridad y compromiso con la satisfacción del cliente. 
+                                 </p>
                             </div>
                         </div>
                     </article>
@@ -184,10 +181,10 @@
                                 <a href="news-post.html" title="Desarrollo de Sistemas a la Medida">Nuestra etica</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo omnis molestias
-                                    nisi
-                                    blanditiis suscipit, perspiciatis quia magnam unde recusandae architecto a corrupti,
-                                    modi beatae asperiores, alias minima. Commodi, incidunt distinctio?</p>
+                                <p>Se basa en la transparencia, la confianza y el respeto. 
+                                    Valoramos la honestidad en todas nuestras interacciones, tanto con nuestros clientes como 
+                                    dentro de nuestro equipo. Nos comprometemos a trabajar con integridad y apegados a los más 
+                                    altos estándares profesionales.</p>
                             </div>
                         </div>
                     </article>
