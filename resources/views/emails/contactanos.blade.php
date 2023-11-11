@@ -11,6 +11,10 @@
     <p>Gracias por contactarnos</p>
 
     <p> <strong> {{$data['name']}} </strong></p>
-
+    <p> <strong> {{$data['empresa']}} </strong></p>
+    <p> <strong> {{$data['telefono']}} </strong></p>
+    <p> <strong> {{$data['correo']}} </strong></p>
+    <p> <strong> {{$data['plan']}} </strong></p>
+    <p> <strong> {{$data['mensaje']}} </strong></p>
 </body>
 </html>
