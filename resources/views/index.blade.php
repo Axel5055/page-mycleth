@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="7000">
-                <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
+                <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img5.jpg');">
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
+                <div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img6.jpg');">
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -138,8 +138,9 @@
                                 <a href="news-post.html" title="Haz crecer tu negocio">Misión</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Transformar las ideas en soluciones digitales innovadoras y 
-                                    significativas. Nos dedicamos a crear experiencias en línea excepcionales que empoderan a 
+                                <p>Transformar las ideas en soluciones digitales innovadoras y
+                                    significativas. Nos dedicamos a crear experiencias en línea excepcionales que empoderan
+                                    a
                                     las empresas y aportan valor a sus usuarios.</p>
                             </div>
                         </div>
@@ -159,10 +160,11 @@
                                 <a href="news-post.html" title="Desarrollo Móvil">Visión</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Liderar el panorama digital con creatividad, innovación y ética. 
-                                    Aspiramos a ser reconocidos como un referente en el campo del desarrollo web y móvil, destacándonos
-                                    por nuestra calidad, integridad y compromiso con la satisfacción del cliente. 
-                                 </p>
+                                <p>Liderar el panorama digital con creatividad, innovación y ética.
+                                    Aspiramos a ser reconocidos como un referente en el campo del desarrollo web y móvil,
+                                    destacándonos
+                                    por nuestra calidad, integridad y compromiso con la satisfacción del cliente.
+                                </p>
                             </div>
                         </div>
                     </article>
@@ -178,12 +180,14 @@
                         <div class="news-item-info">
                             <!-- <div class="news-item-date">01/01/2021</div> -->
                             <h3 class="news-item-heading item-heading">
-                                <a href="news-post.html" title="Desarrollo de Sistemas a la Medida">Nuestra etica</a>
+                                <a href="news-post.html" title="Desarrollo de Sistemas a la Medida">Valores</a>
                             </h3>
                             <div class="news-item-desc">
-                                <p>Se basa en la transparencia, la confianza y el respeto. 
-                                    Valoramos la honestidad en todas nuestras interacciones, tanto con nuestros clientes como 
-                                    dentro de nuestro equipo. Nos comprometemos a trabajar con integridad y apegados a los más 
+                                <p>Se basa en la transparencia, la confianza y el respeto.
+                                    Valoramos la honestidad en todas nuestras interacciones, tanto con nuestros clientes
+                                    como
+                                    dentro de nuestro equipo. Nos comprometemos a trabajar con integridad y apegados a los
+                                    más
                                     altos estándares profesionales.</p>
                             </div>
                         </div>
